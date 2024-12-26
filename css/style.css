@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.star {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.text-yellow-400 {
+  color: #FFD700; 
+}
+
+.text-gray-500 {
+  color: #D1D5DB; 
+}
