@@ -1,16 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-.star {
-  width: 30px;
-  height: 30px;
-  cursor: pointer;
+header {
+  box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.05);
+  background: linear-gradient(
+    183deg,
+    rgba(0, 255, 163, 0.2) 0%,
+    rgba(31, 26, 255, 0.2) 100%
+  );
 }
-
-.text-yellow-400 {
-  color: #FFD700; 
+.input{
+  backdrop-filter: blur(4px);
+box-shadow: 0 4px 41px 0 rgba(0, 0, 0, 0.13);
+background: rgba(255, 255, 255, 0.1);
 }
-
-.text-gray-500 {
-  color: #D1D5DB; 
+.banner{
+  background-image: url(./img/banner.png);
 }

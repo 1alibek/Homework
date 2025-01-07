@@ -1,22 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Card Examplpe</title>
-    <link rel="stylesheet" href="./css/output.css">
-</head>
-<body>
-    <div class="p-6">
-        <input 
-            type="text" 
-            id="search-input" 
-            placeholder="Search products..." 
-            class="p-2 border border-gray-300 rounded w-full mb-6"
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bitcoin</title>
+    <link rel="stylesheet" href="./css/output.css" />
+  </head>
+  <body class="bg-black">
+    <header>
+      <nav
+        class="flex items-center justify-between w-[90%] m-auto min-[1440px]:w-[1440px] py-2"
+      >
+        <nav class="flex items-center gap-6">
+          <img src="./img/logo.png" alt="" />
+          <div class="flex items-center gap-6 max-[920px]:hidden">
+            <a class="font-semibold text-gray-500" href="#">Функции</a>
+            <a class="font-semibold text-gray-500" href="#">Кошельки</a>
+            <a class="font-semibold text-gray-500" href="#">Участие</a>
+            <a class="font-semibold text-gray-500" href="#">Ресурсы</a>
+            <a class="font-semibold text-gray-500" href="#">Новости</a>
+            <a class="font-bold text-white" href="#">О BTCA</a>
+          </div>
+        </nav>
+        <nav class="flex items-center gap-6 max-[350px]:hidden">
+          <img src="./img/img1.png" alt="" />
+          <img src="./img/img2.png" alt="" />
+        </nav>
+      </nav>
+    </header>
+    <section class="w-[90%] m-auto min-[1440px]:w-[1440px]">
+      <img src="./img/main.png" alt="" />
+    </section>
+    <section
+      class="w-[90%] m-auto min-[1440px]:w-[1440px] flex items-center justify-between max-[1035px]:flex-col mt-8"
+    >
+      <div class="flex flex-col gap-4">
+        <p class="font-bold text-[42px] text-white max-[455px]:text-[24px]">
+          Нас поддерживают
+        </p>
+        <p class="text-white">
+          Получите свободу, благодаря конфиденциальным, глобальным
+          <br class="max-[500px]:hidden" />
+          цифровым деньгам. Становитесь своим собственным банком с
+          <br class="max-[500px]:hidden" />
+          полным контролем над своими цифровыми активами.
+        </p>
+        <div
+          class="flex items-center justify-between bg-[#151822] rounded-lg p-4"
+        >
+          <div>
+            <button class="rounded-full px-4 text-white bg-[#1a204a]">
+              TIPS
+            </button>
+            <p class="text-white font-semibold pt-2">Swap to see more</p>
+          </div>
+          <img src="./svg/icon.svg" alt="" />
+        </div>
+      </div>
+      <div>
+        <img src="./img/social.png" alt="" />
+      </div>
+    </section>
+    <section
+      class="w-[90%] m-auto min-[1440px]:w-[1440px] flex items-center justify-between max-[1035px]:flex-col mt-8"
+    >
+      <div class="flex flex-col gap-4">
+        <p class="font-bold text-[42px] text-white max-[455px]:text-[24px]">
+          Кошелек и <br />
+          Инструменты
+        </p>
+        <p class="text-white">
+          BTCA предоставляет вам инструменты и <br />
+          ресурсы, чтобы вы всегда могли <br />
+          контролировать свои средства.
+        </p>
+        <img src="./img/windows.png" alt="" />
+        <img src="./img/button.png" alt="" />
+      </div>
+      <div>
+        <img src="./img/phone.png" alt="" />
+      </div>
+    </section>
+    <section class="w-[90%] m-auto min-[1440px]:w-[1440px] mt-8">
+      <h1
+        class="text-white font-bold text-[42px] max-[500px]:text-[24px] text-center"
+      >
+        Готовы начать?
+      </h1>
+      <p class="text-white text-center">
+        Независимо от того, являетесь ли вы разработчиком,<br />
+        мерчантом, конечным пользователем или покупателем окон, мы приветствуем
+        <br />
+        вас в сообществе BTCA.
+      </p>
+      <div
+        class="flex items-center justify-between py-8 flex-wrap max-[1330px]:justify-center gap-6"
+      >
+        <div class="flex gap-6 bg-[#151822] rounded-md p-4">
+          <div>
+            <p class="text-white">1 шаг</p>
+            <p class="py-4 font-semibold text-[32px] text-white">
+              Скачайте <br />
+              приложение
+            </p>
+            <button class="px-4 py-2 rounded-lg bg-[#1d9a6d] text-white">
+              Перейти
+            </button>
+          </div>
+          <img class="max-[470px]:hidden" src="./img/image 501.png" alt="" />
+        </div>
+        <div class="flex gap-6 bg-[#151822] rounded-md p-4">
+          <div>
+            <p class="text-white">2 шаг</p>
+            <p class="py-4 font-semibold text-[32px] text-white">
+              Регестрируйтесь
+            </p>
+            <button class="px-4 py-2 rounded-lg bg-[#1d9a6d] text-white">
+              Перейти
+            </button>
+          </div>
+          <img class="max-[470px]:hidden" src="./img/image 501.png" alt="" />
+        </div>
+        <div class="flex gap-6 bg-[#151822] rounded-md p-4">
+          <div>
+            <p class="text-white">3 шаг</p>
+            <p class="py-4 font-semibold text-[32px] text-white">Пользуйтесь</p>
+            <button class="px-4 py-2 rounded-lg bg-[#1d9a6d] text-white">
+              Перейти
+            </button>
+          </div>
+          <img class="max-[470px]:hidden" src="./img/image 501.png" alt="" />
+        </div>
+      </div>
+        <div class="flex flex-col p-6 rounded-xl banner">
+      <p class="text-white font-semibold text-[42px] max-[800px]:text-[30px] max-[500px]:text-[20px]">
+        Никогда не пропускайте обновления
+      </p>
+      <p class="py-4 text-white font-semibold text-[18px] max-[500px]:text-[14px]">
+        Подпишитесь на информационный бюллетень и будьте <br />
+        первым, кто получит новейшие оповещения, объявления и обновления <br />
+        о разработках BTCA.
+      </p>
+      <div class="flex items-center justify-between input p-2 rounded-md max-[400px]:hidden">
+        <input
+          class="pl-2 bg-transparent"
+          type="text"
+          placeholder="Ваш e-mail"
         />
+        <button class="text-white px-6 py-2 rounded-full bg-[#279d88]">
+          Подписаться
+        </button>
+      </div>
     </div>
-    <div id="cards-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
-    </div>
+    </section>
+   <footer class="bg-gray-900 text-gray-400 py-12 px-6">
+      <div class="max-w-7xl mx-auto">
+        <div class="flex justify-around flex-wrap gap-8">
+          <div class="space-y-6">
+            <div>
+              <h2 class="text-white text-xl font-medium mb-4">rovac</h2>
+              <div class="flex gap-4">
+              <img src="./img/windows.png" alt="">
+              </div>
+            </div>
+            
+            <div>
+              <h3 class="text-white mb-2">Никогда не пропускайте обновления</h3>
+              <div class="flex gap-2 max-[355px]:hidden w-[fit-content]">
+                <input
+                  type="email"
+                  placeholder="Ваш e-mail"
+                  class="bg-gray-800 rounded px-4 py-2 flex-grow text-sm"
+                />
+                <button class="bg-emerald-600 hover:bg-emerald-700 text-white px-4 py-2 rounded text-sm">
+                  Подписаться
+                </button>
+              </div>
+            </div>
+
+            <p class="text-sm">
+              BTCA - это децентрализованная, одноранговая валюта с <br> открытым исходным кодом, отличающаяся расширенными <br> функциями конфиденциальности
+            </p>
+          </div>
+
+          <div>
+            <h3 class="text-white font-medium mb-4">BTCA</h3>
+            <ul class="space-y-2">
+              <li><a href="#" class="hover:text-white">Получить PIV</a></li>
+              <li><a href="#" class="hover:text-white">Конфиденциальность Shield</a></li>
+              <li><a href="#" class="hover:text-white">Продвинутый POS</a></li>
+              <li><a href="#" class="hover:text-white">Холодный Стекинг</a></li>
+              <li><a href="#" class="hover:text-white">Мастер-ноды</a></li>
+              <li><a href="#" class="hover:text-white">Управление</a></li>
+              <li><a href="#" class="hover:text-white">Экономика</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="text-white font-medium mb-4">Ресурсы</h3>
+            <ul class="space-y-2">
+              <li><a href="#" class="hover:text-white">Кошельки</a></li>
+              <li><a href="#" class="hover:text-white">Coin Specs</a></li>
+              <li><a href="#" class="hover:text-white">Обозреватель блоков</a></li>
+              <li><a href="#" class="hover:text-white">Statistics</a></li>
+              <li><a href="#" class="hover:text-white">Инфоканаль</a></li>
+              <li><a href="#" class="hover:text-white">Новости</a></li>
+              <li><a href="#" class="hover:text-white">Дорожная Карта</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="text-white font-medium mb-4">Поддержка</h3>
+            <ul class="space-y-2">
+              <li><a href="#" class="hover:text-white">Руководства</a></li>
+              <li><a href="#" class="hover:text-white">Форум</a></li>
+              <li><a href="#" class="hover:text-white">Почему BTCA</a></li>
+              <li><a href="#" class="hover:text-white">Контакты</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center text-sm">
+          <p>© 2019-2021 BTCA Community & BTCA Foundation</p>
+          <p>Created by BTCA Community</p>
+        </div>
+      </div>
+    </footer>
+    
     <script src="./app.js"></script>
-</body>
+  </body>
 </html>
